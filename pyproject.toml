@@ -3,12 +3,12 @@ name = "corallab-policies"
 version = "0.1.0"
 description = ""
 authors = ["Tassos Manganaris <tassos.manganaris@gmail.com>"]
-readme = "README.md"
+readme = "README.org"
 packages = [{include = "corallab_policies"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4"
-corallab-lib = { git = "https://github.com/Tass0sm/corallab-lib.git", tag = "v0.2" }
+corallab-lib = "0.2"
 
 [build-system]
 requires = ["poetry-core"]

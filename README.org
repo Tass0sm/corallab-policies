@@ -1,0 +1,4 @@
+#+title: corallab-policies
+
+Common API to many RL / IL policies using various architectures and training
+algorithms.
