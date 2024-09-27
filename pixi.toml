@@ -14,3 +14,20 @@ python = ">=3.10.15,<4"
 [pypi-dependencies]
 corallab-policies = { path = ".", editable = true }
 corallab-lib = { git = "https://github.com/Tass0sm/corallab-lib.git", tag = "v0.2" }
+matplotlib = ">=3.9.2, <4"
+tqdm = ">=4.66.5, <5"
+
+[feature.openai-baselines.pypi-dependencies]
+
+[feature.torchrl.pypi-dependencies]
+torchrl = "*"
+# baselines = { path = "/home/tassos/phd/qureshi/second-project/baselines" }
+
+[feature.robomimic.pypi-dependencies]
+robomimic = { path = "/home/tassos/phd/qureshi/robomimic", editable = true }
+
+[environments]
+default = { solve-group = "default" }
+openai-baselines = { features = ["openai-baselines"], solve-group = "default" }
+torchrl = { features = ["torchrl"], solve-group = "default" }
+robomimic = { features = ["robomimic"], solve-group = "default" }
