@@ -21,10 +21,13 @@ tqdm = ">=4.66.5, <5"
 
 [feature.torchrl.pypi-dependencies]
 torchrl = "*"
-# baselines = { path = "/home/tassos/phd/qureshi/second-project/baselines" }
+mujoco = ">=3.0, <4"
+gymnasium = ">=1.0.0a2"
+imageio = ">=2.35.1, <3"
+# baselines = { path = "/home/tassos/phd/research/second-project/baselines" }
 
 [feature.robomimic.pypi-dependencies]
-robomimic = { path = "/home/tassos/phd/qureshi/robomimic", editable = true }
+robomimic = { path = "/home/tassos/phd/research/robomimic", editable = true }
 
 [environments]
 default = { solve-group = "default" }
