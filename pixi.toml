@@ -12,7 +12,7 @@ version = "0.1.0"
 python = ">=3.10.15,<4"
 
 [pypi-dependencies]
-corallab-policies = { path = "/home/tassos/phd/research/corallab-policies", editable = true }
+corallab-policies = { path = ".", editable = true }
 corallab-lib = { git = "https://github.com/Tass0sm/corallab-lib.git", tag = "v0.2.1" }
 matplotlib = ">=3.9.2, <4"
 tqdm = ">=4.66.5, <5"

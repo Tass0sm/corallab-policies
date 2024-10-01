@@ -44,7 +44,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9a/bb/d43e5c75054e53efce310e79d63df0ac3f25e34c926be5dffb7d283fb2a8/typeguard-2.13.3-py3-none-any.whl
-      - pypi: /home/tassos/phd/research/corallab-policies
+      - pypi: .
   openai-baselines:
     channels:
     - url: https://conda.anaconda.org/conda-forge/
@@ -89,7 +89,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9a/bb/d43e5c75054e53efce310e79d63df0ac3f25e34c926be5dffb7d283fb2a8/typeguard-2.13.3-py3-none-any.whl
-      - pypi: /home/tassos/phd/research/corallab-policies
+      - pypi: .
   robomimic:
     channels:
     - url: https://conda.anaconda.org/conda-forge/
@@ -185,9 +185,9 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4b/84/997bbf7c2bf2dc3f09565c6d0b4959fefe5355c18c4096cfd26d83e0785b/werkzeug-3.0.4-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/62/8b/5ba542fa83c90e09eac972fc9baca7a88e7e7ca4b221a89251954019308b/zipp-3.20.2-py3-none-any.whl
-      - pypi: /home/tassos/phd/research/corallab-policies
       - pypi: /home/tassos/phd/research/robomimic
       - pypi: /home/tassos/phd/research/robosuite
+      - pypi: .
   torchrl:
     channels:
     - url: https://conda.anaconda.org/conda-forge/
@@ -269,7 +269,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/9a/bb/d43e5c75054e53efce310e79d63df0ac3f25e34c926be5dffb7d283fb2a8/typeguard-2.13.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/62/8b/5ba542fa83c90e09eac972fc9baca7a88e7e7ca4b221a89251954019308b/zipp-3.20.2-py3-none-any.whl
-      - pypi: /home/tassos/phd/research/corallab-policies
+      - pypi: .
 packages:
 - kind: conda
   name: _libgcc_mutex
@@ -378,7 +378,7 @@ packages:
 - kind: pypi
   name: corallab-policies
   version: 0.1.0
-  path: /home/tassos/phd/research/corallab-policies
+  path: .
   sha256: 00dcc94b59ef0cc143415e6772d03522ca41714104d7a82eaa9e049cb1ff014e
   requires_dist:
   - corallab-lib==0.2.1
