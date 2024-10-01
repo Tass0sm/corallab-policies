@@ -8,7 +8,7 @@ packages = [{include = "corallab_policies"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4"
-corallab-lib = "0.2"
+corallab-lib = "0.2.1"
 
 [build-system]
 requires = ["poetry-core"]
